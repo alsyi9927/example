@@ -20,7 +20,7 @@ background = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_b
 character = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_basic\\character.png")
 character_size = character.get_rect().size # 이미지의 크기를 구해옴
 character_width = character_size[0] # 캐릭터의 가로 크기
-character_height = character_size[1] # 캐릭터의 새로 크기
+character_height = character_size[1] # 캐릭터의 세로 크기
 character_x_pos = (screen_width / 2) - (character_width /2) # 화면 가로의 절반 크기에 해당하는 곳에 위치(가로)
 character_y_pos = screen_height - character_height # 화면 세로 크기 가장 아래에 해당하는 곳에 위치(세로)
 
@@ -132,7 +132,7 @@ while running:
     pygame.display.update()  # 게임화면을 다시 그리기!
 
 # 잠시 대기
-pygame.time.delay(2000) # 2초 동안 대기 (ms)
+pygame.time.delay(2000) # 2초 동안 대기 ()
 
 # pygame 종료
 pygame.quit()
