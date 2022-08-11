@@ -15,10 +15,10 @@ screenHeight = 480 #세로크기
 screen = pygame.display.set_mode((screenWidth,screenHeight))  #가로, 세로
 
 #배경이미지
-background = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_basic\\background.png")
+background = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_basic\\background1.png")
 
 #캐릭터
-character = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_basic\\character.png")
+character = pygame.image.load("C:\\Users\\이민석\\Desktop\\example\\pygame_basic\\rabbit.png")
 characterSize = character.get_rect().size  #img크기 불러옴
 characterWidth = characterSize[0]
 characterHeight = characterSize[1]
