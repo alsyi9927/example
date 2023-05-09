@@ -1,0 +1,57 @@
+
+*{
+  font-family: 'Dongle' !important;
+  font-size: 30px;
+}
+.search {
+    position: relative;
+    width: 300px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  #bparent{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    
+}
+
+#seoul {
+    border: 1px solid rgb(73, 62, 122);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+   
+}
+#Gyeonggi{
+  border: 1px solid rgb(73, 62, 122);
+  flex:1;
+  width:10%;
+  box-sizing: border-box;
+ 
+}
+
+
+
+#incheon{
+    border: 1px solid rgb(50, 57, 160);
+    flex:1;
+    width:10%;
+    box-sizing: border-box;
+    
+}
+
+#busan{
+  border: 1px solid rgb(45, 53, 160);
+  flex:1;
+  width:10%;
+  box-sizing: border-box;
+ 
+}

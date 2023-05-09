@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/script.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2 class="city" style="text-align: center; font-size: 50px; font-family: 'Dongle' !important; color: rgb(58, 101, 182);">패션을 통하여 날씨를 알아보자</h2>
+    <div class="bparent" >
+        <button  type="button" id="seoul">서울</button>
+        <button  type="button" id="Gyeonggi">경기도</button>
+        <button  type="button" id="incheon">인천</button>
+        <button  type="button" id="busan">부산</button>
+    </div>
+<div class="card" >
+<div class="search" >
+<input type="text" class="search-bar" placeholder="Search">
+<button >
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+        <circle cx="12" cy="13" r="4"></circle>
+    </svg>
+</button>
+</div>
+<div class="weather loading">
+<div style="border: 1px solid rgb(87, 116, 243); float: left; width: 33%; border-radius: 30px; text-align: center; font-size: large;background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);">
+   
+    <h1 class="temp">13°C</h1>
+    <img class="icon">
+    <div class="description">Cloudy</div>
+    <div class="humidity">Humid</div>
+    <div class="wind">Fast</div>
+    <div class="dt_txt">day</div>
+    </div>
+    
+    <div style="border: 1px solid rgb(82, 79, 252); float: left; width: 33%;border-radius: 30px; text-align: center; font-size: large;background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);">
+        
+        <h1 class="temp1">13°C</h1>
+        <img class="icon1">
+        <div class="description1">Cloudy</div>
+        <div class="humidity1">Humid</div>
+        <div class="wind1">Fast</div>
+        <div class="dt_txt1">day</div>
+        </div>
+    
+        <div style="border: 1px solid rgb(56, 53, 241); float: left; width: 33%;border-radius: 30px; text-align: center; font-size: large;background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);">
+          
+            <h1 class="temp2">13°C</h1>
+            <img class="icon2">
+            <div class="description2">Cloudy</div>
+            <div class="humidity2">Humid</div>
+            <div class="wind2">Fast</div>
+            <div class="dt_txt2">day</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
